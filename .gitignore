@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 학습된 모델 가중치 (용량이 커서 제외)
+*.pt
+*.pth
+output/
+
+# 비밀값
+.env
+.streamlit/secrets.toml
+
+.DS_Store
